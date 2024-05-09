@@ -3,15 +3,14 @@ import { Image, Button } from 'semantic-ui-react';
 import CardBoard_board_module from './card-board.board.module.scss';
 
 export default createBoard({
-    name: 'Card Board',
+    name: 'Build Your Card',
     Board: () => (
         <div className={CardBoard_board_module.card}>
             <Image
                 src="https://wixmp-b7f7090100b13623109851bc.wixmp.com/posters/poster_01.svg"
-                size="small"
+                className={CardBoard_board_module.image}
                 rounded
-                wrapped
-            ></Image>
+            />
             <div className={CardBoard_board_module['product-info']}>
                 <h1 className={CardBoard_board_module.title}>Design Your Card</h1>
                 <p className={CardBoard_board_module.description}>
@@ -19,10 +18,8 @@ export default createBoard({
                     craft a masterpiece tailored to your vision. Your art, your rules.
                 </p>
                 <div className={CardBoard_board_module['card-footer']}>
-                    <span>$202</span>
-                    <Button basic color="black">
-                        Buy Now{' '}
-                    </Button>
+                    <span className={CardBoard_board_module.price}>$202</span>
+                    <Button color="yellow">Buy Now</Button>
                 </div>
             </div>
         </div>
@@ -31,5 +28,6 @@ export default createBoard({
     environmentProps: {
         windowHeight: 874,
         windowWidth: 1024,
+        canvasWidth: 370,
     },
 });

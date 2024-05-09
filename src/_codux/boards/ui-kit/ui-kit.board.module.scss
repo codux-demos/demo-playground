@@ -1,0 +1,106 @@
+.root {
+}
+
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: var(--spacing-80);
+  padding-left: var(--spacing-80);
+  padding-top: var(--spacing-120);
+  padding-bottom: var(--spacing-40);
+}
+.pageTitle {
+  font-family: var(--font-display);
+  font-size: 48px;
+  letter-spacing: -0.005em;
+  font: var(--heading-1-text);
+}
+.logo {
+  text-transform: uppercase;
+  color: var(--primary-30);
+  font-size: 30px;
+  letter-spacing: -0.025em;
+}
+.sectionHeader {
+  padding-top: var(--spacing-24);
+  padding-bottom: var(--spacing-24);
+  padding-right: var(--spacing-80);
+  padding-left: var(--spacing-48);
+  background-color: #ebeef5;
+  display: grid;
+  grid-template-rows: min-content min-content;
+  grid-template-columns: 24px 1fr;
+  column-gap: var(--spacing-8);
+}
+
+.sectionTitle {
+  display: flex;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1;
+  column-gap: var(--spacing-12);
+  margin-bottom: var(--spacing-12);
+  font: var(--heading-3-text);
+  line-height: 1;
+  z-index: 100;
+}
+.sectionSubtitle {
+  color: #898989;
+  font-size: 15px;
+  max-width: 800px;
+  font: var(--text-small);
+}
+.logoMarker {
+  font-weight: 700;
+}
+.subSection {
+  padding-right: var(--spacing-80);
+  padding-left: var(--spacing-80);
+  padding-bottom: var(--spacing-32);
+  padding-top: var(--spacing-32);
+  font-family: var(--font-text);
+  position: relative;
+  z-index: 1;
+}
+.contentBlock {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: var(--spacing-12);
+  column-gap: var(--spacing-12);
+}
+
+.asterisk {
+  position: relative;
+  top: var(--spacing-4);
+}
+
+.details {
+  color: #898989;
+  font-size: 11px;
+  font: var(--text-small);
+  padding-top: var(--spacing-8);
+}
+.section {
+  padding-bottom: var(--spacing-40);
+}
+.instructionsBanner {
+  background-color: red;
+  position: fixed;
+  display: flex;
+  column-gap: var(--spacing-4);
+  background: var(--gray-300);
+  padding-top: var(--spacing-8);
+  padding-bottom: var(--spacing-8);
+  padding-right: var(--spacing-20);
+  padding-left: var(--spacing-20);
+  border-radius: 8px;
+  justify-content: center;
+  left: 10vw;
+  right: 10vw;
+  top: var(--spacing-8);
+  box-shadow: var(--shadow-large);
+  color: var(--white);
+  z-index: 1000;
+}
