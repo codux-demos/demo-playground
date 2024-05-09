@@ -14,6 +14,7 @@
   font-family: var(--font-display);
   font-size: 48px;
   letter-spacing: -0.005em;
+  font: var(--heading-1-text);
 }
 .logo {
   text-transform: uppercase;
@@ -40,13 +41,14 @@
   line-height: 1;
   column-gap: var(--spacing-12);
   margin-bottom: var(--spacing-12);
-  font: var(--heading-4);
+  font: var(--heading-3-text);
   line-height: 1;
 }
 .sectionSubtitle {
   color: #898989;
   font-size: 15px;
   max-width: 800px;
+  font: var(--text-small);
 }
 .subSection {
   padding-right: var(--spacing-80);
@@ -76,7 +78,6 @@
 }
 .fontFamilyAa {
   font-size: 28px;
-  font-weight: 700;
 }
 
 .displayFont {
@@ -96,6 +97,7 @@
 .details {
   color: #898989;
   font-size: 11px;
+  font: var(--text-small);
 }
 .margin {
   margin: 0;
@@ -169,37 +171,35 @@
   font-weight: 700;
 }
 .headingOne {
-  font: var(--heading-1);
+  margin: 0px;
+  font: var(--heading-1-display);
 }
 .headingTwo {
-  font: var(--heading-2);
+  margin: 0px;
+  font: var(--heading-2-display);
 }
 .headingThree {
-  font: var(--heading-3);
+  margin: 0px;
+  font: var(--heading-3-display);
 }
 .headingFour {
-  font: var(--heading-4);
-}
-.headingFive {
-  font: var(--heading-5);
-}
-.headingSix {
-  font: var(--heading-6);
-}
-.headingSixSmall {
-  font: var(--heading-6-small);
+  margin: 0px;
+  font: var(--heading-4-display);
 }
 .textLarge {
   font: var(--text-large);
   max-width: 38em;
+  margin: 0px;
 }
 .textBody {
   font: var(--text-body);
   max-width: 38em;
+  margin: 0px;
 }
 .textSmall {
   font: var(--text-small);
   max-width: 38em;
+  margin: 0px;
 }
 .contentBlock {
   display: grid;
@@ -211,7 +211,7 @@
 
 .asterisk {
   position: relative;
-  top: var(--spacing-2);
+  top: var(--spacing-4);
 }
 .colorPrimary {
   background: var(--primary);

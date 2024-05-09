@@ -11,7 +11,7 @@ export default createBoard({
             <section className={styles.pageHeader}>
                 <h1 className={styles.pageTitle}>Style Guide</h1>
                 <div className={styles.logo}>
-                    <span className={styles.logoMarker}>Noco</span>Blox
+                    <span className={styles.logoMarker}>Designer</span> Playground
                 </div>
             </section>
             <section>
@@ -41,7 +41,7 @@ export default createBoard({
                                     </span>
                                     <span className={classNames('pNormal')}></span>
                                 </div>
-                                <div className={styles.details}>Poppins</div>
+                                <div className={styles.details}>Display</div>
                             </div>
                             <div>
                                 <div className={styles.fontFamilyContainer}>
@@ -51,7 +51,7 @@ export default createBoard({
                                         Aa
                                     </span>
                                 </div>
-                                <div className={styles.details}>Inter</div>
+                                <div className={styles.details}>Text</div>
                             </div>
                         </div>
                     </div>
