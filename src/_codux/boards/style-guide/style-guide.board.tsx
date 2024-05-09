@@ -60,26 +60,26 @@ export default createBoard({
                     <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Heading One</h2>
                         <h1 className={styles.headingOne}>Design is a language, not a style.</h1>
-                        <div className={styles.details}>Poppins, 800</div>
+                        <div className={styles.details}>Italiana</div>
                     </div>
                     <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Heading Two</h2>
                         <h2 className={styles.headingTwo}>Design is thinking made visual.</h2>
-                        <div className={styles.details}>Poppins, 700</div>
+                        <div className={styles.details}>Italiana</div>
                     </div>
                     <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Heading Three</h2>
                         <h1 className={styles.headingThree}>
                             Good design is as little design as possible.
                         </h1>
-                        <div className={styles.details}>Poppins, 700</div>
+                        <div className={styles.details}>Italiana</div>
                     </div>
                     <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Heading Four</h2>
                         <h1 className={styles.headingFour}>
                             Creativity comes from a conflict of ideas.{' '}
                         </h1>
-                        <div className={styles.details}>Poppins, 700</div>
+                        <div className={styles.details}>Italiana</div>
                     </div>
                     <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Large Text</h2>
@@ -88,7 +88,7 @@ export default createBoard({
                             known for his work with the consumer products company Braun and the
                             furniture company Vitsœ.
                         </p>
-                        <div className={styles.details}>Inter, 400</div>
+                        <div className={styles.details}>DM Sans</div>
                     </div>
                     <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Body Text</h2>
@@ -99,7 +99,7 @@ export default createBoard({
                             philosophy is encapsulated in his ten principles for good design,
                             advocating for simplicity and honesty in design.
                         </p>
-                        <div className={styles.details}>Inter, 400</div>
+                        <div className={styles.details}>DM Sans</div>
                     </div>
                     <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Small Text</h2>
@@ -110,7 +110,7 @@ export default createBoard({
                             continue to be a benchmark for designers striving for sustainability and
                             functionality in their creations.
                         </p>
-                        <div className={styles.details}>Inter, 400</div>
+                        <div className={styles.details}>DM Sans</div>
                     </div>
                 </div>
             </section>
