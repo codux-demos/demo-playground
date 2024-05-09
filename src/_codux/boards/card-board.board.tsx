@@ -3,7 +3,7 @@ import { Image, Button } from 'semantic-ui-react';
 import CardBoard_board_module from './card-board.board.module.scss';
 
 export default createBoard({
-    name: 'Card Board',
+    name: 'Build Your Card',
     Board: () => (
         <div className={CardBoard_board_module.card}>
             <Image
