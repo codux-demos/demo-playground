@@ -82,28 +82,6 @@ export default createBoard({
                         <div className={styles.details}>Poppins, 700</div>
                     </div>
                     <div className={styles.contentBlock}>
-                        <h2 className={styles.subSectionTitle}>Heading Five</h2>
-                        <h1 className={styles.headingFive}>
-                            It&apos;s very easy to be different, but very difficult to be better.{' '}
-                        </h1>
-                        <div className={styles.details}>Inter, 700</div>
-                    </div>
-                    <div className={styles.contentBlock}>
-                        <h2 className={styles.subSectionTitle}>Heading Six</h2>
-                        <h1 className={styles.headingSix}>
-                            Like all good design, mine is ridiculously simple, but it solves a
-                            problem.
-                        </h1>
-                        <div className={styles.details}>Inter, 700</div>
-                    </div>
-                    <div className={styles.contentBlock}>
-                        <h2 className={styles.subSectionTitle}>Heading Six – Small</h2>
-                        <h1 className={styles.headingSixSmall}>
-                            Design is not for philosophy, it&apos;s for life.{' '}
-                        </h1>
-                        <div className={styles.details}>Inter, 700</div>
-                    </div>
-                    <div className={styles.contentBlock}>
                         <h2 className={styles.subSectionTitle}>Large Text</h2>
                         <p className={styles.textLarge}>
                             Dieter Rams is a highly influential German industrial designer best

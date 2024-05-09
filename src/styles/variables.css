@@ -1,21 +1,22 @@
 :root {
-  --font-display: 'Poppins', sans-serif;
-  --font-text: 'Inter', sans-serif;
+  --font-display: "Italiana", sans-serif;
+  --font-text: "DM Sans", sans-serif;
 
-  --heading-1: 800 54px/1.1 Poppins, sans-serif;
-  --heading-2: 800 40px/42px Poppins, sans-serif;
-  --heading-3: 800 32px/38px Poppins, sans-serif;
-  --heading-4: 800 28px/32px Poppins, sans-serif;
-  --heading-5: 700 24px/30px Inter, sans-serif;
-  --heading-6: 700 18px/26px Inter, sans-serif;
-  --heading-6-small: 700 16px/24px Inter, sans-serif;
-  --text-large: 18px/28px Inter, sans-serif;
-  --text-body: 16px/24px Inter, sans-serif;
-  --text-small: 14px/20px Inter, sans-serif;
+  --heading-1-display: 800 54px/1.1 "Italiana", sans-serif;
+  --heading-2-display: 800 40px/42px "Italiana", sans-serif;
+  --heading-3-display: 800 32px/38px "Italiana", sans-serif;
+  --heading-4-display: 800 28px/32px "Italiana", sans-serif;
+  --heading-1-text: 800 54px/1.1 "DM Sans", sans-serif;
+  --heading-2-text: 800 40px/42px "DM Sans", sans-serif;
+  --heading-3-text: 800 32px/38px "DM Sans", sans-serif;
+  --heading-4-text: 800 28px/32px "DM Sans", sans-serif;
+  --text-large: 18px/28px "DM Sans", sans-serif;
+  --text-body: 16px/24px "DM Sans", sans-serif;
+  --text-small: 14px/20px "DM Sans", sans-serif;
 
   --primary: #068466;
-  --secondary: #001e42;
-  --accent: #fc9f5b;
+  --secondary: #7fc2f4;
+  --accent: #ffb615;
 
   --white: #ffffff;
   --gray-100: #f8f6f4;
@@ -44,11 +45,4 @@
   --shadow-small: 3px 3px 6px 0 rgba(0, 0, 0, 0.05);
   --shadow-medium: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
   --shadow-large: 0 12px 24px 0 rgba(0, 0, 0, 0.1);
-
-  --radius-min: 1px;
-  --radius-small: 4px;
-  --radius-medium: 8px;
-  --radius-large: 16px;
-  --radius-huge: 24px;
-  --radius-pill: 9999px;
 }
