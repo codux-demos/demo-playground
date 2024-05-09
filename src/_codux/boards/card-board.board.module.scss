@@ -10,10 +10,12 @@
   padding-left: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font: var(--text-body);
 }
 .title {
   margin: 15px 0px;
   max-width: 430px;
+  font: var(--heading-1);
 }
 .description {
   max-width: 430px;

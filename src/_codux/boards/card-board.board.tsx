@@ -21,7 +21,7 @@ export default createBoard({
                 <div className={CardBoard_board_module['card-footer']}>
                     <span>$202</span>
                     <Button basic color="black">
-                        Buy Now{' '}
+                        Buy Now
                     </Button>
                 </div>
             </div>
