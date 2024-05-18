@@ -9,14 +9,20 @@
   padding-left: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
-  font: var(--text-body);
+  font-family: var(--font-text);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-m);
 }
 .title {
   margin: 15px 0px;
-  font: var(--heading-2-display);
+  font-family: var(--font-display);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
 }
 .description {
-  font: var(--text-body);
+  font-family: var(--font-text);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-m);
 }
 .card {
   display: flex;
@@ -36,6 +42,8 @@
   object-fit: cover;
 }
 .price {
-  font: var(--text-body);
+  font-family: var(--font-text);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-m);
   font-weight: 700;
 }
