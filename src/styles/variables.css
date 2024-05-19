@@ -2,17 +2,21 @@
   --font-display: "Italiana", sans-serif;
   --font-text: "DM Sans", sans-serif;
 
-  --heading-1-display: 400 54px/1.1 "Italiana", sans-serif;
-  --heading-2-display: 400 40px/42px "Italiana", sans-serif;
-  --heading-3-display: 400 32px/38px "Italiana", sans-serif;
-  --heading-4-display: 400 28px/32px "Italiana", sans-serif;
-  --heading-1-text: 800 54px/1.1 "DM Sans", sans-serif;
-  --heading-2-text: 800 40px/42px "DM Sans", sans-serif;
-  --heading-3-text: 800 32px/38px "DM Sans", sans-serif;
-  --heading-4-text: 800 28px/32px "DM Sans", sans-serif;
-  --text-large: 18px/28px "DM Sans", sans-serif;
-  --text-body: 16px/24px "DM Sans", sans-serif;
-  --text-small: 14px/20px "DM Sans", sans-serif;
+  --font-size-h1: 54px;
+  --font-size-h2: 40px;
+  --font-size-h3: 32px;
+  --font-size-h4: 28px;
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+
+  --line-height-h1: 60px;
+  --line-height-h2: 42px;
+  --line-height-h3: 38px;
+  --line-height-h4: 32px;
+  --line-height-l: 28px;
+  --line-height-m: 24px;
+  --line-height-s: 20px;
 
   --primary: #068466;
   --secondary: #7fc2f4;

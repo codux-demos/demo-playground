@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italiana&display=swap');
 
-
 :root {
-  font: var(--text-body);
+  font-family: var(--font-text);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-m);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,9 +19,6 @@ body,
 
 html {
   box-sizing: border-box;
-  color: var(--text-default);
-  font-size: var(--text-base-font-size);
-  line-height: var(--text-base-line-height);
 }
 
 a {

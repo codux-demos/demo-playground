@@ -2,9 +2,10 @@ import classNames from 'classnames';
 import { createBoard } from '@wixc3/react-board';
 import styles from './ui-kit.board.module.scss';
 import SectionSvg from '../../../assets/section.svg';
-import { Button, Image } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
 import Poster01Png from '../../../assets/poster_01.png';
 import Poster04Png from '../../../assets/poster_04.png';
+import { Button } from '../../../components/button/button';
 
 const icon = (
     <svg viewBox="0 0 40 40" width="14px">
@@ -26,7 +27,8 @@ export default createBoard({
     Board: () => (
         <div className={styles.root}>
             <div className={styles.instructionsBanner}>
-                Open +Add <b>Elements</b> on the left and select {icon} Semantic to see how you can add external components
+                Open +Add <b>Elements</b> on the left and select {icon} Semantic to see how you can
+                add external components
             </div>
             <section className={styles.pageHeader}>
                 <h1 className={styles.pageTitle}>Semantic UI Kit</h1>
@@ -46,53 +48,21 @@ export default createBoard({
                 </div>
                 <div className={styles.subSection}>
                     <div className={styles.contentBlock}>
-                        <Button primary size="huge">
-                            Huge
-                        </Button>
-                        <Button primary size="big">
-                            Big
-                        </Button>
-                        <Button primary size="large">
+                        <Button size="large" variant="primary">
                             Large
                         </Button>
-                        <Button primary size="medium">
-                            Medium
-                        </Button>
-                        <Button primary size="small">
+                        <Button variant="primary">Medium</Button>
+                        <Button size="small" variant="primary">
                             Small
                         </Button>
-                        <Button primary size="tiny">
-                            Tiny
-                        </Button>
                     </div>
                 </div>
                 <div className={styles.subSection}>
                     <div className={styles.contentBlock}>
-                        <Button>Default color</Button>
-                        <Button color="red">Red</Button>
-                        <Button color="orange">Oragne</Button>
-                        <Button color="yellow">Yellow</Button>
-                        <Button color="olive">Olive</Button>
-                        <Button color="green">Green</Button>
-                        <Button color="blue">Blue</Button>
-                    </div>
-                </div>
-                <div className={styles.subSection}>
-                    <div className={styles.contentBlock}>
-                        <Button>Default</Button>
-                        <Button primary>Primary</Button>
-                        <Button positive>Positive</Button>
-                        <Button negative>Negative</Button>
-                        <Button basic>Basic</Button>
-                        <Button basic primary>
-                            Basic Primary
-                        </Button>
-                        <Button basic positive>
-                            Basic Positive
-                        </Button>
-                        <Button basic negative>
-                            Basic Negative
-                        </Button>
+                        <Button variant="primary">Primary</Button>
+                        <Button variant="secondary">Secondary</Button>
+                        <Button variant="danger">Danger</Button>
+                        <Button disabled={true}>Disabled</Button>
                     </div>
                 </div>
             </section>
@@ -144,5 +114,6 @@ export default createBoard({
             top: 0,
             right: 0,
         },
+        windowWidth: 1024,
     },
 });
