@@ -22,7 +22,7 @@ export const Button = ({
     className,
     variant,
     size,
-    children = 'Button',
+    children,
     disabled,
     onClick,
 }: ButtonProps) => {

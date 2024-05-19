@@ -7,7 +7,7 @@ import SectionSvg from '../../../assets/section.svg';
 export default createBoard({
     name: 'Style Guide',
     Board: () => (
-        <div className={classNames(styles.root)}>
+        <div>
             <section className={styles.pageHeader}>
                 <h1 className={styles.pageTitle}>Style Guide</h1>
                 <div className={styles.logo}>
