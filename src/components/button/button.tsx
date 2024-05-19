@@ -1,10 +1,7 @@
 import classNames from 'classnames';
 import styles from './button.module.scss';
 
-type ButtonVariant =
-    | 'primary'
-    | 'secondary'
-    | 'danger'
+type ButtonVariant = 'primary' | 'secondary' | 'danger';
 
 type ButtonSize = 'medium' | 'small' | 'large';
 
@@ -27,11 +24,16 @@ export const Button = ({
     size,
     children = 'Button',
     disabled,
-    onClick
+    onClick,
 }: ButtonProps) => {
     return (
         <button
-            className={classNames(styles.root, variant && styles[variant], size && styles[size], className)}
+            className={classNames(
+                styles.root,
+                variant && styles[variant],
+                size && styles[size],
+                className,
+            )}
             onClick={onClick}
             disabled={disabled}
         >

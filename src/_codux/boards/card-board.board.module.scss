@@ -47,3 +47,13 @@
   line-height: var(--line-height-m);
   font-weight: 700;
 }
+.card-button {
+  border: none;
+  font-family: var(--font-text);
+  font-weight: 600;
+  background: var(--accent);
+  border: 2px solid var(--accent);
+  color: var(--white);
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-m);
+}

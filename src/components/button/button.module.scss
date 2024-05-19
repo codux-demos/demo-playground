@@ -1,20 +1,12 @@
 .root {
   --hoverEffectDark: inset 0 0 0 40px rgba(0, 0, 0, 0.1);
-  border: none;
-  background: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: var(--font-text);
-  font-weight: 600;
-  background: var(--accent);
-  border: 2px solid var(--accent);
-  color: var(--white);
   padding-top: var(--spacing-12);
   padding-bottom: var(--spacing-12);
   padding-right: var(--spacing-24);
   padding-left: var(--spacing-24);
-  font-size: var(--font-size-m);
-  line-height: var(--line-height-m);
+
 
   &:not(:disabled):hover {
     box-shadow: var(--hoverEffectDark);

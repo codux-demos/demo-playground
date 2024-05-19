@@ -20,7 +20,7 @@ export default createBoard({
                 </p>
                 <div className={styles['card-footer']}>
                     <span className={styles.price}>$202</span>
-                    <Button>Buy Now</Button>
+                    <Button className={styles['card-button']}>Buy Now</Button>
                 </div>
             </div>
         </div>
