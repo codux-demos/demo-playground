@@ -48,14 +48,17 @@ export default createBoard({
                 </div>
                 <div className={styles.subSection}>
                     <div className={styles.contentBlock}>
-                        <Button size="large">Large</Button>
-                        <Button>Medium</Button>
-                        <Button size="small">Small</Button>
+                        <Button size="large" variant="primary">
+                            Large
+                        </Button>
+                        <Button variant="primary">Medium</Button>
+                        <Button size="small" variant="primary">
+                            Small
+                        </Button>
                     </div>
                 </div>
                 <div className={styles.subSection}>
                     <div className={styles.contentBlock}>
-                        <Button>Default</Button>
                         <Button variant="primary">Primary</Button>
                         <Button variant="secondary">Secondary</Button>
                         <Button variant="danger">Danger</Button>

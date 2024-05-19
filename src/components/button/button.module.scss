@@ -6,6 +6,10 @@
   padding-bottom: var(--spacing-12);
   padding-right: var(--spacing-24);
   padding-left: var(--spacing-24);
+  font-family: var(--font-text);
+  font-weight: 600;
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-m);
 
 
   &:not(:disabled):hover {
