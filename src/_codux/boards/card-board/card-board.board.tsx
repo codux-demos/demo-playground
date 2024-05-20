@@ -1,17 +1,16 @@
 import { createBoard } from '@wixc3/react-board';
-import { Image } from 'semantic-ui-react';
 import styles from './card-board.board.module.scss';
-import { Button } from '../../components/button/button';
+import { Button } from '../../../components/button/button';
 
 export default createBoard({
     name: 'Build Your Card',
     Board: () => (
         <div className={styles.card}>
-            <Image
+            <img
                 src="https://wixmp-b7f7090100b13623109851bc.wixmp.com/posters/poster_01.svg"
                 className={styles.image}
-                rounded
             />
+
             <div className={styles['product-info']}>
                 <h1 className={styles.title}>Design Your Card</h1>
                 <p className={styles.description}>

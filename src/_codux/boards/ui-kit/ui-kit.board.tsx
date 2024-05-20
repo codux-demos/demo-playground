@@ -1,10 +1,6 @@
-import classNames from 'classnames';
 import { createBoard } from '@wixc3/react-board';
 import styles from './ui-kit.board.module.scss';
 import SectionSvg from '../../../assets/section.svg';
-import { Image } from 'semantic-ui-react';
-import Poster01Png from '../../../assets/poster_01.png';
-import Poster04Png from '../../../assets/poster_04.png';
 import { Button } from '../../../components/button/button';
 
 const icon = (
@@ -23,15 +19,11 @@ const icon = (
 );
 
 export default createBoard({
-    name: 'Semantic UI Kit',
+    name: 'UI Kit',
     Board: () => (
         <div className={styles.root}>
-            <div className={styles.instructionsBanner}>
-                Open +Add <b>Elements</b> on the left and select {icon} Semantic to see how you can
-                add external components
-            </div>
             <section className={styles.pageHeader}>
-                <h1 className={styles.pageTitle}>Semantic UI Kit</h1>
+                <h1 className={styles.pageTitle}>UI Kit</h1>
                 <div className={styles.logo}>
                     <span className={styles.logoMarker}>Designer</span> Playground
                 </div>
@@ -63,45 +55,6 @@ export default createBoard({
                         <Button variant="secondary">Secondary</Button>
                         <Button variant="danger">Danger</Button>
                         <Button disabled={true}>Disabled</Button>
-                    </div>
-                </div>
-            </section>
-            <section className={styles.section}>
-                <div className={styles.sectionHeader}>
-                    <img className={styles.asterisk} src={SectionSvg} />
-                    <div>
-                        <h2 className={styles.sectionTitle}>Images</h2>
-                        <p className={styles.sectionSubtitle}>
-                            See image properties in the &quot;Properties Panel&quot; on the right{' '}
-                        </p>
-                    </div>
-                </div>
-                <div className={styles.subSection}>
-                    <div className={styles.contentBlock}>
-                        <Image src={Poster01Png} size="medium" />
-                        <Image src={Poster01Png} size="small" />
-                        <Image src={Poster01Png} size="tiny" />
-                        <Image src={Poster01Png} size="mini" />
-                    </div>
-                </div>
-                <div className={styles.subSection}>
-                    <div className={styles.contentBlock}>
-                        <div>
-                            <Image src={Poster04Png} size="small" />
-                            <div className={styles.details}>Default</div>
-                        </div>
-                        <div>
-                            <Image src={Poster04Png} size="small" rounded />
-                            <div className={styles.details}>Rounded</div>
-                        </div>
-                        <div>
-                            <Image src={Poster04Png} size="small" circular />
-                            <div className={styles.details}>Circular</div>
-                        </div>
-                        <div>
-                            <Image src={Poster04Png} size="small" disabled />
-                            <div className={styles.details}>Disabled</div>
-                        </div>
                     </div>
                 </div>
             </section>
